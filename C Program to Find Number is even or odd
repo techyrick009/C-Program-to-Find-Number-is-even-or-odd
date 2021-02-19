@@ -1,0 +1,50 @@
+
+/*
+ *  Author: Techyrick.com
+ */
+
+#include<stdio.h> 
+//#include 
+
+
+
+void main() {
+
+int number;
+  
+
+//    clrscr();
+
+    printf("C Program to Find Entered number is even or odd");
+
+    printf("\n\n Enter Number : ");
+    scanf("%i", &number);
+
+    
+
+     
+     
+  //Logic to find even/odd
+
+    if(number % 2 == 0) {
+        
+         printf("\n\n Number %i is even", number);
+    }
+    
+    else {
+        
+         printf("\n\n Number %i is odd", number);
+    }
+   
+   
+  
+    
+  
+
+
+
+//	getch();
+
+
+}
+
